@@ -1,0 +1,3 @@
+1. What happens to the layout when you resize the screen less that 550px?
+
+I think there are two reasons, 1. Is the meta tag identified in the HTML which is specifically about the viewport and for mobile devices. 2. Is becuase of the @media reference in the skeleton css document. Whent the width of the page is reduced to 550px or lower, the css document applies the changes identified in the code situate within the @media tag brackets.
